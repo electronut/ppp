@@ -17,15 +17,7 @@ The [Lorenz equations][3] are given as:
 
 ![](lorenz.png)
 
-In the code, the equations are solves using a simple time discretisation as follows:
-
-
-<script src="https://gist.github.com/electronut/ee46d455233f167ad4c7fdde8e2504ae.js"></script>
-
-
-The above code creates a closure 
-
-To see it in action, run the code as follows:
+In the code, the equations are solved using a simple time discretisation. To see it in action, run the code as follows:
 
 ```
 python chaotic.py --axes zx --attr lorenz
@@ -35,10 +27,24 @@ Here's the output:
 
 ![](lorenz-attr.png)
 
-python chaotic.py --axes zx --attr thomas
 
-## The 
+## Thomas' cyclically symmetric attractor
+
+The equations for this [attractor][4] are given as:
+
+![](thomas.png)
+
+Run it as:
+
+```
+python chaotic.py --axes xy --attr thomas
+```
+
+Here's the output:
+
+![](thomas-attr.png)
 
 [1]: https://en.wikipedia.org/wiki/Attractor
 [2]: https://en.wikipedia.org/wiki/Fractal
 [3]: https://en.wikipedia.org/wiki/Lorenz_system
+[4]: https://en.wikipedia.org/wiki/Thomas%27_cyclically_symmetric_attractor
