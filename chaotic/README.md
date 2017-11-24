@@ -1,4 +1,4 @@
-This article is part of my [Python Playground Plus]((https://github.com/electronut/ppp) project. 
+This article is part of my [Python Playground Plus](https://github.com/electronut/ppp) project. 
 
 <hr/>
 
@@ -17,9 +17,14 @@ The [Lorenz equations][3] are given as:
 
 ![](lorenz.png)
 
-python chaotic.py --axes zx --attr thomas
+In the code, the equations are solves using a simple time discretisation as follows:
+
+
 
 python chaotic.py --axes zx --attr lorenz
+
+
+python chaotic.py --axes zx --attr thomas
 
 ## The 
 
