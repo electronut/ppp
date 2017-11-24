@@ -19,11 +19,13 @@ The [Lorenz equations][3] are given as:
 
 In the code, the equations are solves using a simple time discretisation as follows:
 
+
 <script src="https://gist.github.com/electronut/ee46d455233f167ad4c7fdde8e2504ae.js"></script>
+
 
 The above code creates a closure 
 
-It's run as follows:
+To see it in action, run the code as follows:
 
 ```
 python chaotic.py --axes zx --attr lorenz
